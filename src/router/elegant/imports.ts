@@ -33,5 +33,7 @@ export const views: Record<LastLevelRouteKey, RouteComponent | (() => Promise<Ro
   "multi-menu_first_child": () => import("@/views/multi-menu/first_child/index.vue"),
   "multi-menu_second_child_home": () => import("@/views/multi-menu/second_child_home/index.vue"),
   "tresjs-demo_experience": () => import("@/views/tresjs-demo/experience/index.vue"),
+  "tresjs-demo_hello-world": () => import("@/views/tresjs-demo/hello-world/index.vue"),
+  "tresjs-demo_my-first-scene": () => import("@/views/tresjs-demo/my-first-scene/index.vue"),
   "user-center": () => import("@/views/user-center/index.vue"),
 };

@@ -14,6 +14,7 @@ export function setupVitePlugins(viteEnv: Env.ImportMeta) {
       script: {
         defineModel: true
       },
+      // see the doc: https://docs.tresjs.org/zh/guide/getting-started.html#vite
       ...templateCompilerOptions
     }),
     vueJsx(),

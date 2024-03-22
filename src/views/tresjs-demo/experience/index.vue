@@ -11,6 +11,10 @@ import { OrbitControls } from '@tresjs/cientos';
       <TresBoxGeometry :args="[1, 1, 1]" />
       <TresMeshNormalMaterial />
     </TresMesh>
+    <TresMesh>
+      <TresBoxGeometry :args="[1, 1, 1]" />
+      <TresMeshNormalMaterial />
+    </TresMesh>
     <TresAxesHelper />
     <TresDirectionalLight :position="[-1, 2, 4]" />
   </TresCanvas>

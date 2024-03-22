@@ -153,7 +153,9 @@ const local: App.I18n.Schema = {
     exception_404: '404',
     exception_500: '500',
     'tresjs-demo': 'TresjsDemo',
-    'tresjs-demo_experience': 'TheExperience'
+    'tresjs-demo_experience': 'TheExperience',
+    'tresjs-demo_hello-world': 'HelloWorld',
+    'tresjs-demo_my-first-scene': 'FirstScene'
   },
   page: {
     login: {

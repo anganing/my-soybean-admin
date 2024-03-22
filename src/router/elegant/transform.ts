@@ -173,6 +173,8 @@ const routeMap: RouteMap = {
   "multi-menu_second_child_home": "/multi-menu/second/child/home",
   "tresjs-demo": "/tresjs-demo",
   "tresjs-demo_experience": "/tresjs-demo/experience",
+  "tresjs-demo_hello-world": "/tresjs-demo/hello-world",
+  "tresjs-demo_my-first-scene": "/tresjs-demo/my-first-scene",
   "user-center": "/user-center"
 };
 

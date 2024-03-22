@@ -294,6 +294,24 @@ export const generatedRoutes: GeneratedRoute[] = [
           title: 'tresjs-demo_experience',
           i18nKey: 'route.tresjs-demo_experience'
         }
+      },
+      {
+        name: 'tresjs-demo_hello-world',
+        path: '/tresjs-demo/hello-world',
+        component: 'view.tresjs-demo_hello-world',
+        meta: {
+          title: 'tresjs-demo_hello-world',
+          i18nKey: 'route.tresjs-demo_hello-world'
+        }
+      },
+      {
+        name: 'tresjs-demo_my-first-scene',
+        path: '/tresjs-demo/my-first-scene',
+        component: 'view.tresjs-demo_my-first-scene',
+        meta: {
+          title: 'tresjs-demo_my-first-scene',
+          i18nKey: 'route.tresjs-demo_my-first-scene'
+        }
       }
     ]
   },
