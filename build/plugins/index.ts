@@ -3,6 +3,7 @@ import vue from '@vitejs/plugin-vue';
 import vueJsx from '@vitejs/plugin-vue-jsx';
 import VueDevtools from 'vite-plugin-vue-devtools';
 import progress from 'vite-plugin-progress';
+import { templateCompilerOptions } from '@tresjs/core';
 import { setupElegantRouter } from './router';
 import { setupUnocss } from './unocss';
 import { setupUnplugin } from './unplugin';
@@ -12,7 +13,8 @@ export function setupVitePlugins(viteEnv: Env.ImportMeta) {
     vue({
       script: {
         defineModel: true
-      }
+      },
+      ...templateCompilerOptions
     }),
     vueJsx(),
     VueDevtools(),

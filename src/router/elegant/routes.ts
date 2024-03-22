@@ -278,6 +278,26 @@ export const generatedRoutes: GeneratedRoute[] = [
     ]
   },
   {
+    name: 'tresjs-demo',
+    path: '/tresjs-demo',
+    component: 'layout.base',
+    meta: {
+      title: 'tresjs-demo',
+      i18nKey: 'route.tresjs-demo'
+    },
+    children: [
+      {
+        name: 'tresjs-demo_experience',
+        path: '/tresjs-demo/experience',
+        component: 'view.tresjs-demo_experience',
+        meta: {
+          title: 'tresjs-demo_experience',
+          i18nKey: 'route.tresjs-demo_experience'
+        }
+      }
+    ]
+  },
+  {
     name: 'user-center',
     path: '/user-center',
     component: 'layout.base$view.user-center',
