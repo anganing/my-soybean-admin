@@ -12,6 +12,7 @@ const local: App.I18n.Schema = {
     close: 'Close',
     check: 'Check',
     columnSetting: 'Column Setting',
+    config: 'Config',
     confirm: 'Confirm',
     delete: 'Delete',
     deleteSuccess: 'Delete Success',
@@ -281,6 +282,8 @@ const local: App.I18n.Schema = {
         roleCode: 'Role Code',
         roleStatus: 'Role Status',
         roleDesc: 'Role Description',
+        menuAuth: 'Menu Auth',
+        buttonAuth: 'Button Auth',
         form: {
           roleName: 'Please enter role name',
           roleCode: 'Please enter role code',
@@ -316,6 +319,7 @@ const local: App.I18n.Schema = {
         }
       },
       menu: {
+        home: 'Home',
         title: 'Menu List',
         id: 'ID',
         parentId: 'Parent ID',
@@ -342,6 +346,7 @@ const local: App.I18n.Schema = {
         buttonDesc: 'Button Desc',
         menuStatus: 'Menu Status',
         form: {
+          home: 'Please select home',
           menuType: 'Please select menu type',
           menuName: 'Please enter menu name',
           routeName: 'Please enter route name',
